@@ -17,6 +17,9 @@
     "webpack": "1.x.x",
     "loader-utils": "0.x.x"
   },
+  "devDependencies": {
+    "eslint": "0.18.x"
+  },
   "scripts": {
     "test": "eslint index.js"
   },
