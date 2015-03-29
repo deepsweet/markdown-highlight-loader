@@ -15,6 +15,15 @@ $ npm i -S markdown-highlight-loader
 ### Usage
 
 ```js
+/*
+include highlight.js theme styles, for example in "vendor" chunk:
+entry: {
+    vendor: [
+        …
+        'highlight.js/styles/railscasts.css'
+    ],
+    …
+*/
 module: {
     loaders: [ {
         test: /\.md$/,
