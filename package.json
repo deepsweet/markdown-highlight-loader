@@ -17,5 +17,11 @@
     "webpack": "1.x.x",
     "loader-utils": "0.x.x"
   },
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "license": "WTFPL"
 }

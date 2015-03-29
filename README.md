@@ -1,6 +1,7 @@
 ## Markdown ([marked](https://github.com/chjj/marked) + [highlight.js](https://github.com/isagalaev/highlight.js)) loader for [webpack](https://webpack.github.io/)
 
 [![npm](http://img.shields.io/npm/v/markdown-highlight-loader.svg?style=flat-square)](https://www.npmjs.org/package/markdown-highlight-loader)
+[![travis](http://img.shields.io/travis/deepsweet/markdown-highlight-loader.svg?style=flat-square)](https://travis-ci.org/deepsweet/markdown-highlight-loader)
 [![climate](http://img.shields.io/codeclimate/github/deepsweet/markdown-highlight-loader.svg?style=flat-square)](https://codeclimate.com/github/deepsweet/markdown-highlight-loader/code)
 [![gratipay](http://img.shields.io/gratipay/deepsweet.svg?style=flat-square)](https://gratipay.com/deepsweet/)
 
@@ -21,6 +22,7 @@ entry: {
         'highlight.js/styles/railscasts.css'
     ],
     …
+}
 */
 module: {
     loaders: [ {
