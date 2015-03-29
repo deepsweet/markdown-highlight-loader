@@ -1,0 +1,7 @@
+tmp/
+.gitignore
+.editorconfig
+.eslintrc
+*.sublime-*
+*.log
+.DS_Store
