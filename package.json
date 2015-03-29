@@ -10,10 +10,10 @@
     "url": "https://github.com/deepsweet"
   },
   "dependencies": {
-    "marked": "0.3.x",
-    "highlight.js": "8.4.x"
+    "marked": "0.3.x"
   },
   "peerDependencies": {
+    "highlight.js": "8.4.x",
     "webpack": "1.x.x",
     "loader-utils": "0.x.x"
   },
