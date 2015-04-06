@@ -13,7 +13,7 @@
     "marked": "0.3.x"
   },
   "peerDependencies": {
-    "highlight.js": "8.4.x",
+    "highlight.js": "8.x.x",
     "webpack": "1.x.x",
     "loader-utils": "0.x.x"
   },
