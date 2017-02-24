@@ -5,7 +5,7 @@ var marked = require('marked');
 var highlight = require('highlight.js');
 
 module.exports = function(source) {
-    var query = loaderUtils.parseQuery(this.query);
+    var query = loaderUtils.getOptions(this);
     var options = {
         renderer: new marked.Renderer(),
         gfm: true,
